@@ -8,7 +8,7 @@ describe('Testes de Rotas de Contatos', () => {
     expect(response.body).toBeInstanceOf(Array);
   });
 
-  it('Deve criar um novo contato com campos válidos (POST /contatos)', async () => {
+  it('Deve criar um novo contato com campos válidos (POST /contato)', async () => {
     const newContact = {
       nome: 'John Doe',
       email: 'johndoe@example.com',
