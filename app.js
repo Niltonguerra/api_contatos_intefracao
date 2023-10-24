@@ -11,7 +11,7 @@ app.use('/contatos', contatoRouter);
 
 // tratamento de erro para rotas inexistentes
 app.use((req,res,next)=>{
-  res.status(404).json({"message":"rota não definida"})
+  res.status(404).json({"message":"rota não existe"})
 })
 
 
